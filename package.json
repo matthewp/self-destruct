@@ -1,0 +1,31 @@
+{
+  "name": "self-destruct",
+  "version": "1.0.0",
+  "description": "A module for self-destructable files",
+  "main": "self.js",
+  "scripts": {
+    "test": "node test/test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewp/self-destruct.git"
+  },
+  "keywords": [
+    "file",
+    "io"
+  ],
+  "author": "Matthew Phillips",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/matthewp/self-destruct/issues"
+  },
+  "homepage": "https://github.com/matthewp/self-destruct",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "pdenodeify": "^0.1.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
+  }
+}
